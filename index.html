@@ -1,0 +1,1601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="overflow-x-hidden">
+    <header class="flex bg-[#181818] border-b border-[#2f3336]">
+        <div class="w-full flex px-10 bg-yellow-500 lg:hidden">
+            <div class="w-full flex justify-between items-center">
+                <div class="w-2/4 flex items-center">
+                    <i class="fa-solid fa-bars text-[#333e48] mr-5 mt-[12px]"></i>
+                    <h2 class="text-[#333e48] font-semibold text-[40px]">electro</h2>
+                </div>
+                <div class="sm:w-[15%] lg:w-[10%]">
+                    <i class="fa-solid fa-magnifying-glass mr-4 text-[#5f5c4b]"></i>
+                    <i class="fa-solid fa-user mr-4 text-[#5f5c4b]"></i>
+                    <i class="fa-solid fa-bag-shopping text-[#5f5c4b]"></i>
+                </div>
+            </div>
+        </div>
+        <div class="w-full mx-auto px-10 py-1 hidden lg:flex">
+            <div class="lg:w-full flex flex-wrap justify-between">
+                <div class="w-[55%] nav1 flex items-center">
+                    <div class="flex items-center">
+                        <span class="text-[#50565A] text-[.929em] hover:text-white duration-75 cursor-pointer">Welcome
+                            to Worldwide Electronics Store</span>
+                    </div>
+                </div>
+                <div class="w-[35%] nav2 flex items-center">
+                    <div class="flex items-center">
+                        <a class="text-[#50565A] text-[.929em] hover:text-[#E7E7E7] duration-75" href="#"><i
+                                class="fa-solid fa-location-dot mr-2"></i>Store Locator</a>
+                        <div class="w-[2px] h-[15px] bg-[#42464A] mr-2 ml-2"></div>
+                        <a class="text-[#50565A] text-[.929em] hover:text-[#E7E7E7] duration-75" href="#"><i
+                                class="fa-sharp fa-solid fa-truck-fast mr-2"></i>Track Your Order</a>
+                        <div class="w-[2px] h-[15px] bg-[#42464A] mr-2 ml-2"></div>
+                        <a class="text-[#50565A] text-[.929em] hover:text-[#E7E7E7] duration-75" href="#"><i
+                                class="fa-solid fa-bag-shopping mr-2"></i>Shop</a>
+                        <div class="w-[2px] h-[15px] bg-[#42464A] mr-2 ml-2"></div>
+                        <a class="text-[#50565A] text-[.929em] hover:text-[#E7E7E7] duration-75" href="#"><i
+                                class="fa-solid fa-user mr-2"></i>My
+                            Account</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="w-full bg-[#181818] hidden lg:flex">
+        <div class="w-full mx-auto px-10">
+            <div class="w-full flex items-center justify-between">
+                <div class="w-[10%] flex items-center justify-between">
+                    <div class="flex">
+                        <span class="text-[#D9D9D9] font-semibold text-[40px]">electro<span
+                                class="text-[#FDD700]">.</span></span>
+                    </div>
+                </div>
+                <div class="w-[57%] flex flex-wrap items-center h-[41px] rounded-full">
+                    <div class="w-[5%] flex">
+                        <i
+                            class="fa-solid fa-bars text-[#6E767D] text-[21px] cursor-pointer hover:text-white duration-75"></i>
+                    </div>
+                    <div class="w-[90%] flex bg-[#212121] h-11 rounded-full pl-5">
+                        <div class="w-full flex justify-between rounded-full">
+                            <div class="flex w-3/5">
+                                <input
+                                    class="w-full items-center outline-none bg-[#212121] placeholder:text-[#687078] pr-5"
+                                    placeholder="Search for Products" type="text">
+                            </div>
+                            <div class="flex w-[30%]">
+                                <select class="text-[#656C72] outline-none bg-[#212121]">
+                                    <option value="0">All Categories</option>
+                                    <option value="1">Accessories</option>
+                                    <option value="2">Cameras & Photographyy</option>
+                                    <option value="3">Gadgets</option>
+                                    <option value="4">Home Entertainment</option>
+                                    <option value="5">Laptops & Computers</option>
+                                    <option value="6">Printers & lnk</option>
+                                    <option value="7">Smart Phones & Tablets</option>
+                                    <option value="8">TV & Audio</option>
+                                    <option value="9">Video Games & Consoles</option>
+                                    <option value="10">Stereo</option>
+                                    <option value="11">Home Theatre</option>
+                                    <option value="12">Bluetooth Speakers</option>
+                                    <option value="13">Headphones</option>
+                                    <option value="14">Speakers</option>
+                                </select>
+                            </div>
+                            <div class="flex justify-center items-center bg-[#FED700] w-[10%] rounded-r-full">
+                                <i class="fa-solid fa-magnifying-glass text-[#333E48]"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[20%] flex items-center">
+                    <div class="flex justify-center items-center text-center">
+                        <a class="mr-[30px]" href="#">
+                            <i class="fa-solid fa-repeat text-[#CECECE] text-[1.300em]"></i>
+                        </a>
+                        <a class="mr-[30px]" href="#">
+                            <i class="fa-regular fa-heart text-[#CECECE] text-[1.300em]"></i>
+                        </a>
+                        <a class="mr-[30px]" href="#">
+                            <i class="fa-solid fa-user text-[#CECECE] text-[1.300em]"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-bag-shopping text-[#CECECE] text-[1.300em]"></i>
+                            <span class="text-[#D9D9D9] font-semibold text-[18px]">%0.00</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full flex items-center pt-6">
+                <div class="w-[96%] flex justify-between">
+                    <div class="w-[60%] flex">
+                        <div class="w-[260px] flex items-center bg-[#FED700] py-2 rounded-t-lg cursor-pointer">
+                            <i class="fa-solid fa-bars ml-4"></i>
+                            <p class="font-medium ml-4">All Departments</p>
+                        </div>
+                        <div class="flex items-center ml-5">
+                            <a class="text-[#E0245E] mr-[30px] font-normal" href="#">All pages
+                                <i class="fa-solid fa-chevron-down mr-5 text-[10px]"></i>
+                            </a>
+                            <a class="text-white mr-[30px] font-medium" href="#">Featured Brands</a>
+                            <a class="text-white mr-[30px] font-medium" href="#">Trending Styles</a>
+                            <a class="text-white font-medium" href="#">Gift Cards</a>
+                        </div>
+                    </div>
+                    <div class="w-[30%] flex justify-end items-center">
+                        <a class="text-white font-medium" href="#">Free Shipping on Orders $50+</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="w-full bg-[url(./img.cdm/background.jpg)] h-[405px] bg bg-center">
+        <div class="w-full px-10 flex-wrap h-full">
+            <div class="md:w-[90%] md:justify-end lg:w-full flex flex-wrap lg:justify-start">
+                <div class="w-[260px] flex flex-col bg-[#212121] rounded-b-lg h-[375px] lg:flex md:hidden sm:hidden">
+                    <ul>
+                        <li class="py-1">
+                            <a class="text-[#D9D9D9] font-semibold ml-4 text-[16px]" href="#">Value of the Day</a>
+                        </li>
+                        <div class="w-[90%] bg-[#2f3336] h-[1px] ml-[10px]"></div>
+                        <li class="py-1">
+                            <a class="text-[#D9D9D9] font-semibold ml-4 text-[16px]" href="#">Top 100 Offers</a>
+                        </li>
+                        <div class="w-[90%] bg-[#2f3336] h-[1px] ml-[10px]"></div>
+                        <li class="py-1">
+                            <a class="text-[#D9D9D9] font-semibold ml-4 text-[16px]" href="#">New Arrivals</a>
+                        </li>
+                        <div class="w-[90%] bg-[#2f3336] h-[1px] ml-[10px]"></div>
+                        <li class="flex py-1 items-center">
+                            <a class="text-[#D9D9D9] font-normal ml-4 text-[14px]" href="#">Computers & Accessories</a>
+                            <a class="ml-[55px] text-[#AEAEAE] font-semibold" href="#">></a>
+                        </li>
+                        <div class="w-[90%] bg-[#2f3336] h-[1px] ml-[10px]"></div>
+                        <li class="flex py-1 items-center">
+                            <a class="text-[#D9D9D9] font-normal ml-4 text-[14px]" href="#">Cameras, Audio & Video</a>
+                            <a class="ml-[61px] text-[#AEAEAE] font-semibold" href="#">></a>
+                        </li>
+                        <div class="w-[90%] bg-[#2f3336] h-[1px] ml-[10px]"></div>
+                        <li class="flex py-1 items-center">
+                            <a class="text-[#D9D9D9] font-normal ml-4 text-[14px]" href="#">Mobiles & Tablets</a>
+                            <a class="ml-[101px] text-[#AEAEAE] font-semibold" href="#">></a>
+                        </li>
+                        <div class="w-[90%] bg-[#2f3336] h-[1px] ml-[10px]"></div>
+                        <li class="flex py-1 items-center">
+                            <a class="text-[#D9D9D9] font-normal ml-4 text-[14px]" href="#">Movies, Music & Video
+                                Games</a>
+                            <a class="ml-[22px] text-[#AEAEAE] font-semibold" href="#">></a>
+                        </li>
+                        <div class="w-[90%] bg-[#2f3336] h-[1px] ml-[10px]"></div>
+                        <li class="flex py-1 items-center">
+                            <a class="text-[#D9D9D9] font-normal ml-4 text-[14px]" href="#">TV & Audio</a>
+                            <a class="ml-[137px] text-[#AEAEAE] font-semibold" href="#">></a>
+                        </li>
+                        <div class="w-[90%] bg-[#2f3336] h-[1px] ml-[10px]"></div>
+                        <li class="flex py-1 items-center">
+                            <a class="text-[#D9D9D9] font-normal ml-4 text-[14px]" href="#">Watches & Eyewear</a>
+                            <a class="ml-[86px] text-[#AEAEAE] font-semibold" href="#">></a>
+                        </li>
+                        <div class="w-[90%] bg-[#2f3336] h-[1px] ml-[10px]"></div>
+                        <li class="flex py-1 items-center">
+                            <a class="text-[#D9D9D9] font-normal ml-4 text-[14px]" href="#">Car, Motorbike &
+                                Industrial</a>
+                            <a class="ml-[38px] text-[#AEAEAE] font-semibold" href="#">></a>
+                        </li>
+                        <div class="w-[90%] bg-[#2f3336] h-[1px] ml-[10px]"></div>
+                        <li class="flex py-1 items-center">
+                            <a class="text-[#D9D9D9] font-normal ml-4 text-[14px]" href="#">Accessories</a>
+                            <a class="ml-[134px] text-[#AEAEAE] font-semibold" href="#">></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-[80%] flex justify-center items-center">
+                    <div class="flex flex-col items-center">
+                        <div class="sm:w-[73%] md:w-[87%] lg:w-[50%] flex">
+                            <span class="text-[#34BCEC] text-[20px] font-bold">SHOP TO GET WHAT YOU LOVE</span>
+                        </div>
+                        <div class="sm:w-[73%] md:w-[88%] lg:w-[50%] h-auto">
+                            <span class="text-[#333E48] text-[46px] font-light">TIMEPIECES THAT MAKE A STATEMENT UP TO
+                                <span class="text-[#333E48] font-medium">40% OFF</span> </span>
+                        </div>
+                        <div class="sm:w-[73%] md:w-[87%] lg:w-1/2 mt-4">
+                            <span
+                                class="cursor-pointer bg-[#FED700] text-[#374147] font-normal py-3 px-14 rounded-[9px] hover:bg-[#EAC600] duration-75">Start
+                                Buying</span>
+                        </div>
+                    </div>
+                    <div class="md:w-[900px] lg:w-[479px] h-[400px] overflow-hidden relative bottom-[-5px]">
+                        <img class="w-[380px] absolute right-0 bottom-[-40px]" src="img.cdm/Smartphones.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="w-full bg-[#181818] py-6">
+        <div class="sm:w-full sm:overflow-x-scroll md:w-full md:overflow-x-scroll lg:w-full lg:overflow-hidden px-10 flex-wrap">
+            <div class="w-full flex justify-between lg:overflow-hidden">
+                <div class="sm:w-[520px] md:w-[472px] md:shrink-0 md:mr-3 md:h-[165px] lg:w-[335px] lg:h-[130px] flex justify-center bg-[#212121] rounded-[1px] cursor-pointer">
+                    <div class="flex">
+                        <div class="md:justify-end lg:w-1/2 flex items-center">
+                            <img class="w-[152px]" src="img.cdm/cameras-resized.png" alt="">
+                        </div>
+                        <div class="w-[50%] flex justify-center flex-col items-center">
+                            <div class="md:w-[58%] lg:w-[74%] flex">
+                                <p class="text-[#D9D9D9] font-light">CATCH BIG <span
+                                        class="text-[#D9D9D9] font-semibold">DEALS</span> ON THE CAMERAS</p>
+                            </div>
+                            <div class="md:w-[58%] lg:w-[74%] flex mt-1">
+                                <span class="text-white font-semibold">Shop now</span>
+                                <p class="bg-[#FED700] rounded-[100%] ml-2 font-normal text-[#181818] px-[6px]">></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sm:w-[520px] md:w-[472px] md:shrink-0 md:mr-3 md:h-[165px] lg:w-[335px] lg:h-[130px] bg-[#212121] rounded-[1px] flex justify-center cursor-pointer">
+                    <div class="flex">
+                        <div class="md:justify-end lg:w-1/2 flex items-center">
+                            <img class="w-[153px]" src="img.cdm/laptop.png" alt="">
+                        </div>
+                        <div class="w-[50%] flex justify-center flex-col items-center">
+                            <div class="w-[71%] flex">
+                                <span class="text-[#D9D9D9] font-light">TABLETS, SMARTPHONES <span
+                                        class="text-[#D9D9D9] font-semibold">AND MORE</span></span>
+                            </div>
+                            <div class="w-[70%] flex mt-1">
+                                <div class="flex">
+                                    <div class="flex items-center">
+                                        <div class="flex flex-col mr-2">
+                                            <span class="text-[14px] text-[#B5D9CD]">UP</span>
+                                            <span class="text-[14px] text-[#B5D9CD]">TO</span>
+                                        </div>
+                                        <span class="font-bold text-[2.173em] text-[#D9D9D9]">70</span>
+                                        <span class="font-bold text-[#D9D9D9] mb-4">%</span>
+                                        <span
+                                            class="bg-[#FED700] rounded-[100%] ml-2 font-normal text-[#181818] px-[6px]">></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sm:w-[520px] md:w-[472px] md:shrink-0 md:mr-3 md:h-[165px] lg:w-[335px] lg:h-[130px] bg-[#212121] rounded-[1px] flex justify-center cursor-pointer">
+                    <div class="flex">
+                        <div class="md:justify-end lg:w-1/2 flex items-center">
+                            <img class="w-[137px]" src="img.cdm/desktop.png" alt="">
+                        </div>
+                        <div class="w-[50%] flex justify-center flex-col items-center">
+                            <div class="md:w-[78%] lg:w-[85%] flex">
+                                <p class="text-[#D9D9D9] font-light">SHOP THE <span
+                                        class="text-[#D9D9D9] font-semibold">HOTTEST</span> PRODUCTS</p>
+                            </div>
+                            <div class="md:w-[78%] lg:w-[85%] flex mt-1">
+                                <span class="text-white font-semibold">Shop now</span>
+                                <p class="bg-[#FED700] rounded-[100%] ml-2 font-normal text-[#181818] px-[6px]">></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sm:w-[520px] md:w-[472px] md:shrink-0 md:mr-3 md:h-[165px] lg:w-[335px] lg:h-[130px] bg-[#212121] rounded-[1px] flex justify-center cursor-pointer">
+                    <div class="flex">
+                        <div class="md:justify-end lg:w-1/2 flex items-center justify-center">
+                            <img class="w-[212px]" src="img.cdm/360-camers.png" alt="">
+                        </div>
+                        <div class="w-[50%] flex justify-center flex-col items-center">
+                            <div class="md:w-[65%] lg:w-[90%] flex">
+                                <p class="text-[#D9D9D9] font-light">SHOP THE <span
+                                        class="text-[#D9D9D9] font-semibold">HOTTEST</span> PRODUCTS</p>
+                            </div>
+                            <div class="md:w-[65%] lg:w-[90%] flex mt-1">
+                                <span class="text-white font-semibold">Shop now</span>
+                                <p class="bg-[#FED700] rounded-[100%] ml-2 font-normal text-[#181818] px-[6px]">></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="w-full bg-[#181818]">
+        <div class="w-full flex px-10 justify-between py-10 flex-wrap">
+            <div class="w-[30%]">
+                <div class="flex flex-col border-[#212121] bg-[#212121] rounded-[15px] h-[450px]">
+                    <div class="py-6">
+                        <div class="flex ml-7">
+                            <h2 class="text-[1.571em] font-normal text-[#D9D9D9]">Special Offer</h2>
+                        </div>
+                        <div class="flex justify-center">
+                            <a class="flex flex-col justify-center items-center text-center" href="#">
+                                <div class="flex">
+                                    <img class="w-[202px]" src="img.cdm/consal-300x300.png">
+                                </div>
+                                <div class="w-[63%] flex">
+                                    <h2 class="text-[#D1D1D1] font-semibold">Game Console Controller + USB 3.0 Cable
+                                    </h2>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="flex text-center justify-center mt-3">
+                            <span class="text-[2.143em] font-medium text-[#D9D9D9]">$99.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[70%] flex flex-col">
+                <div class="w-full flex justify-center">
+                    <a class="mr-4 text-[1.286em] text-[#D9D9D9] font-medium border-b border-[#FED700]" href="#">Featured</a>
+                    <a class="mr-4 text-[#D9D9D9] text-[1.286em] font-normal" href="#">On Sale</a>
+                    <a class="text-[#D9D9D9] text-[1.286em] font-normal" href="#">Top Rated</a>
+                </div>
+                <div class="w-full bg-[#2F3336] ml-[10px] h-[1px] mt-2"></div>
+                <div class="w-full flex mt-5 flex-wrap">
+                    <div class="md:w-[175px] lg:w-[25%] border-r border-[#2F3336] hover:bg-[#212121] px-5">
+                        <div class="flex">
+                            <a class="text-[#5F666B]" href="#">Audio Speakers</a>
+                        </div>
+                        <div class="w-[80%] flex">
+                            <a class="text-[#D9D9D9] font-medium" href="#">Wireless Audio System Multiroom 360</a>
+                        </div>
+                        <div class="flex">
+                            <img class="w-[202px]" src="img.cdm/WirelessSound-300x300.png">
+                        </div>
+                        <div class="w-3/4 justify-between flex items-center mt-[24px]">
+                            <p class="text-[#1C87C9] text-[1.429em]">$2,299.00</p>
+                            <a class="bg-[#495057]  rounded-full px-1" href="#"><i
+                                    class="fa-sharp fa-solid fa-right-long text-[#D9D9D9]"></i></a>
+                        </div>
+                    </div>
+                    <div class="md:w-[175px] lg:w-[25%] border-r border-[#2F3336] hover:bg-[#212121] px-5">
+                        <div class="flex">
+                            <a class="text-[#5F666B]" href="#">Laptops, Ultrabooks</a>
+                        </div>
+                        <div class="w-full flex">
+                            <a class="text-[#D9D9D9] font-medium" href="#">Tablet Red EliteBook Revolve 810 G2</a>
+                        </div>
+                        <div class="flex">
+                            <img class="w-[202px]" src="img.cdm/apptablet-300x300.png">
+                        </div>
+                        <div class="w-full justify-between flex items-center">
+                            <div class="flex flex-col">
+                                <p class="text-[#647585]">$2.299.00</p>
+                                <p class="text-[#D6235A] text-[1.429em]">$2,299.00</p>
+                            </div>
+                            <a class="bg-[#495057]  rounded-full px-1" href="#"><i
+                                    class="fa-sharp fa-solid fa-right-long text-[#D9D9D9]"></i></a>
+                        </div>
+                    </div>
+                    <div class="md:w-[175px] lg:w-[25%] border-r border-[#2F3336] hover:bg-[#212121] px-5">
+                        <div class="flex">
+                            <a class="text-[#5F666B]" href="#">Headphones</a>
+                        </div>
+                        <div class="w-[76%] flex]">
+                            <a class="text-[#D9D9D9] font-medium" href="#">White Solo 2 Wireless</a>
+                        </div>
+                        <div class="flex">
+                            <img class="w-[202px]" src="img.cdm/uniheadphone-300x300.png">
+                        </div>
+                        <div class="w-full justify-between flex items-center mt-11">
+                            <p class="text-[#1C87C9] text-[1.429em]">$248.99</p>
+                            <a class="bg-[#495057]  rounded-full px-1" href="#"><i
+                                    class="fa-sharp fa-solid fa-right-long text-[#D9D9D9]"></i></a>
+                        </div>
+                    </div>
+                    <div class="md:w-[175px] lg:w-[25%] px-5 hover:bg-[#212121]">
+                        <div class="flex">
+                            <a class="text-[#5F666B]" href="#">Smartphones</a>
+                        </div>
+                        <div class="w-[90%] flex">
+                            <a class="text-[#D9D9D9] font-medium" href="#">Smartphone 6S 32GB LTE</a>
+                        </div>
+                        <div class="flex">
+                            <img class="w-[202px]" src="img.cdm/GoldPhone-1-300x300.png">
+                        </div>
+                        <div class="w-full mt-[24px] justify-between flex items-center ">
+                            <div class="flex flex-col">
+                                <p class="text-[#647585]">$1.215.00</p>
+                                <p class="text-[#D6235A] text-[1.429em]">$1,100.00</p>
+                            </div>
+                            <a class="bg-[#495057]  rounded-full px-1" href="#"><i
+                                    class="fa-sharp fa-solid fa-right-long text-[#D9D9D9]"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full flex mt-10 flex-wrap">
+                    <div class="md:w-[25%] lg:w-[25%] border-r border-[#2F3336] px-5 hover:bg-[#212121]">
+                        <div class="flex">
+                            <a class="text-[#6E767D]" href="#">Cameras</a>
+                        </div>
+                        <div class="w-[86%] flex">
+                            <a class="text-[#D9D9D9] font-medium" href="#">Purple NX Mini F1 aparat SMART NX</a>
+                        </div>
+                        <div class="flex">
+                            <img class="w-[202px]" src="img.cdm/camera2-300x300.png" alt="">
+                        </div>
+                        <div class="w-full flex justify-between">
+                            <div class="flex">
+                                <span class="text-[#1DA1F2] text-[20px]">$559.00</span>
+                            </div>
+                            <div class="flex items-center">
+                                <a class="bg-[#495057] rounded-full px-2 py-1" href="#"><i
+                                        class="fa-sharp fa-solid fa-cart-arrow-down text-[#D9D9D9]"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-[25%] lg:w-[25%] border-r border-[#2F3336] px-5 hover:bg-[#212121]">
+                        <div class="flex">
+                            <a class="text-[#6E767D]" href="#">Printers</a>
+                        </div>
+                        <div class="w-[77%] flex">
+                            <a class="text-[#D9D9D9] font-medium" href="#">Full Color LaserJet Pro M452dn</a>
+                        </div>
+                        <div class="flex">
+                            <img class="w-[205px]" src="img.cdm/printer-300x300.png" alt="">
+                        </div>
+                        <div class="w-full flex justify-between">
+                            <div class="flex">
+                                <span class="text-[#1DA1F2] text-[20px]">$1,050.00</span>
+                            </div>
+                            <div class="flex items-center">
+                                <a class="bg-[#495057] rounded-full px-2 py-1" href="#"><i
+                                        class="fa-sharp fa-solid fa-cart-arrow-down text-[#D9D9D9]"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-[175px] lg:w-[25%] px-5 border-r border-[#2F3336] hover:bg-[#212121]">
+                        <div class="flex">
+                            <a class="text-[#6E767D]" href="#">Game Consoles, Gaming</a>
+                        </div>
+                        <div class="w-full flex">
+                            <a class="text-[#D9D9D9] font-medium" href="#">GameConsole Destiny Special Edition</a>
+                        </div>
+                        <div class="flex">
+                            <img class="w-[202px]" src="img.cdm/game1-300x300.png" alt="">
+                        </div>
+                        <div class="w-full flex justify-between">
+                            <div class="flex">
+                                <span class="text-[#1DA1F2] text-[20px]">$150.00</span>
+                            </div>
+                            <div class="flex items-center">
+                                <a class="bg-[#495057] rounded-full px-2 py-1" href="#"><i
+                                        class="fa-sharp fa-solid fa-cart-arrow-down text-[#D9D9D9]"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-[175px] lg:w-[25%] px-5 hover:bg-[#212121]">
+                        <div class="flex">
+                            <a class="text-[#6E767D]" href="#">Cameras</a>
+                        </div>
+                        <div class="w-[86%] flex">
+                            <a class="text-[#D9D9D9] font-medium" href="#">Camera C430W 4k Waterproof</a>
+                        </div>
+                        <div class="flex">
+                            <img class="w-[202px]" src="img.cdm/videocamera-300x300.png" alt="">
+                        </div>
+                        <div class="w-full flex justify-between">
+                            <div class="flex">
+                                <span class="text-[#1DA1F2] text-[20px]">$590.00</span>
+                            </div>
+                            <div class="flex items-center">
+                                <a class="bg-[#495057] rounded-full px-2 py-1" href="#"><i
+                                        class="fa-sharp fa-solid fa-cart-arrow-down text-[#D9D9D9]"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="w-full bg-[#212121] py-6">
+        <div class="md:w-full lg:w-full px-10 flex flex-wrap">
+            <div class="sm:w-full md:w-full lg:w-full flex justify-center pt-5 flex-wrap">
+                <a class="text-[#D9D9D9] text-[17px] font-bold mr-6 border-b border-[#FED700]" href="#">Best Deals</a>
+                <a class="text-[#D0D0D0] text-[17px] font-medium mr-6" href="#">TV & Audio</a>
+                <a class="text-[#D0D0D0] text-[17px] font-medium mr-6" href="#">Cameras</a>
+                <a class="text-[#D0D0D0] text-[17px] font-medium mr-6" href="#">Audio</a>
+                <a class="text-[#D0D0D0] text-[17px] font-medium mr-6" href="#">Smartphones</a>
+                <a class="text-[#D0D0D0] text-[17px] font-medium mr-6" href="#">GPS & Navi</a>
+                <a class="text-[#D0D0D0] text-[17px] font-medium mr-6" href="#">Computers</a>
+                <a class="text-[#D0D0D0] text-[17px] font-medium mr-6" href="#">Portable Audio</a>
+                <a class="text-[#D0D0D0] text-[17px] font-medium" href="#">Accessories</a>
+            </div>
+            <div class="w-full px-10 h-[1px] bg-[#2F3336] mt-3 mb-3"></div>
+            <div class="md:w-full lg:w-full flex bg-[#181818] justify-between flex-wrap">
+                <div class="w-full md:w-1/3 xl:w-[466px] flex-wrap">
+                    <div class="w-full flex flex-wrap">
+                        <div class="w-[231px] px-5 py-5 flex flex-col border-r border-[#212121] border-b">
+                            <div class="flex">
+                                <a class="text-[#6E767D]" href="#">Power Banks</a>
+                            </div>
+                            <div class="w-[203px] flex">
+                                <a class="text-[#D9D9D9] font-bold" href="#">Powerbank 1130 mAh Blue</a>
+                            </div>
+                            <div class="flex">
+                                <a href="#">
+                                    <img class="w-[183px]" src="img.cdm/powerbank-300x300.png" alt="">
+                                </a>
+                            </div>
+                            <div class="w-[90%] justify-between flex">
+                                <div class="flex flex-col">
+                                    <span class="text-[#74889B] text-[.9em]">%210.00</span>
+                                    <p class="text-[#E0245E] text-[20px] font-normal leading-[1em]">$200.00</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <a class="bg-[#495057] rounded-full py-1 px-2" href="#"><i
+                                            class="fa-sharp fa-solid fa-right-long text-[#D9D9D9]"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex md:hidden xl:flex lg:w-[231px]  px-5 py-5 flex-col border-r border-[#212121] border-b">
+                            <div class="flex">
+                                <a class="text-[#6E767D]" href="#">Laptops</a>
+                            </div>
+                            <div class="flex">
+                                <a class="text-[#D9D9D9] font-bold" href="#">Laptop Screener CX70 2QF-621XPL 17.3″
+                                    4210</a>
+                            </div>
+                            <div class="flex">
+                                <a href="#">
+                                    <img class="w-[181px]" src="img.cdm/applap-300x300.png" alt="">
+                                </a>
+                            </div>
+                            <div class="w-[90%] justify-between flex items-center">
+                                <p class="text-[#1C94DE] text-[20px] font-normal leading-[1em]">$2,399.00</p>
+                                <div class="flex items-center">
+                                    <a class="bg-[#495057] rounded-full py-1 px-2" href="#"><i
+                                            class="fa-sharp fa-solid fa-cart-arrow-down text-[#D8D8D8]"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full flex">
+                        <div class="w-[231px] px-5 py-5 flex flex-col border-r border-[#212121]">
+                            <div class="flex">
+                                <a class="text-[#6E767D]" href="#">Game Consoles</a>
+                            </div>
+                            <div class="flex">
+                                <a class="text-[#D9D9D9] font-bold" href="#">GameConsole Destiny Special Edition</a>
+                            </div>
+                            <div class="flex">
+                                <a href="#">
+                                    <img class="w-[181px]" src="img.cdm/game1-300x300 (1).png" alt="">
+                                </a>
+                            </div>
+                            <div class="w-[90%] justify-between flex items-center">
+                                <p class="text-[#1C94DE] text-[20px] font-normal leading-[1em]">$789.00</p>
+                                <div class="flex items-center">
+                                    <a class="bg-[#495057] rounded-full py-1 px-2" href="#"><i
+                                            class="fa-sharp fa-solid fa-cart-arrow-down text-[#D8D8D8]"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex md:hidden xl:flex lg:w-[231px] px-5 py-5 flex-col border-r border-[#212121]">
+                            <div class="flex">
+                                <a class="text-[#6E767D]" href="#">Laptops, Ultrabooks</a>
+                            </div>
+                            <div class="flex">
+                                <a class="text-[#D9D9D9] font-bold" href="#">Tablet Red EliteBook Revolve 810 G2</a>
+                            </div>
+                            <div class="flex">
+                                <a href="#">
+                                    <img class="w-[181px]" src="img.cdm/apptablet-300x300 (1).png" alt="">
+                                </a>
+                            </div>
+                            <div class="w-[90%] justify-between flex items-center">
+                                <div class="flex flex-col">
+                                    <p class="text-[#BC2251] text-[20px] font-normal leading-[1em]">$2,100.00</p>
+                                    <p class="text-[#74889B] text-[.9em]">$2,299.00</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <a class="bg-[#495057] rounded-full py-1 px-2" href="#"><i
+                                            class="fa-sharp fa-solid fa-right-long text-[#D9D9D9]"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 xl:w-[465px] lg:flex">
+                    <div class="w-full xl:w-[417px] flex flex-col  px-5 py-5">
+                        <div class="flex flex-col">
+                            <span class="text-[#5D6469]">Game Consoles</span>
+                            <p class="text-[#D9D9D9] font-bold text-[16px]">Game Console Controller + USB 3.0 Cable</p>
+                        </div>
+                        <div class="flex">
+                            <img class="w-full xl:w-[383px]" src="img.cdm/consal.png" alt="">
+                        </div>
+                        <div class="flex items-center h-[190px]">
+                            <div class="border border-[#E9E9E9] mr-2">
+                                <img class="w-[60px]" src="img.cdm/gadtet-150x150.png" alt="">
+                            </div>
+                            <div class="border border-[#E9E9E9] mr-2">
+                                <img class="w-[60px]" src="img.cdm/gade1-150x150 (1).png" alt="">
+                            </div>
+                            <div class="border border-[#E9E9E9]">
+                                <img class="w-[60px]" src="img.cdm/consal-300x300 (1).png" alt="">
+                            </div>
+                        </div>
+                        <div class="w-full flex justify-between items-center">
+                            <div class="flex">
+                                <span class="text-[#1DA1F2] text-[22px]">$99.00</span>
+                            </div>
+                            <div class="md:hidden lg:flex group">
+                                <a class="bg-[#FED700] text-[#181818] rounded-full px-5 py-1 group-hover:bg-[#212121] group-hover:text-[#D1D1D1] duration-150" href="#"><i
+                                        class="fa-sharp fa-solid fa-cart-arrow-down mr-2 text-[#181818] group-hover:text-[#D1D1D1] duration-150"></i>Add to
+                                    cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 xl:w-[466px]">
+                    <div class="w-full flex">
+                        <div class="md:w-[262px] lg:w-[233px] px-5 py-5 flex flex-col lg:border-r border-l border-b border-[#212121]">
+                            <div class="flex">
+                                <a href="#">
+                                    <span class="text-[#52575C] text-[14px]">Computer Cases, Servers</span>
+                                </a>
+                            </div>
+                            <div class="w-[198px] flex">
+                                <a href="#">
+                                    <span class="text-[#D9D9D9] font-bold">Aerocool EN52377 Dead Silence Gaming Cube
+                                        Case</span>
+                                </a>
+                            </div>
+                            <div class="flex">
+                                <img class="w-[183px]" src="img.cdm/gamecabin-300x300.png" alt="">
+                            </div>
+                            <div class="w-full flex justify-between items-center">
+                                <div class="flex flex-col">
+                                    <p class="text-[#6C7F90] text-[12px]">$180.00</p>
+                                    <span class="text-[#E0245E] text-[20px]">$150.00</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <a class="bg-[#495057] rounded-full px-2 py-1" href="#"><i
+                                            class="fa-sharp fa-solid fa-cart-arrow-down text-[#D7D7D7]"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="md:hidden lg:w-[233px] lg:flex 2xl:flex px-5 py-5 flex flex-col border-b border-[#212121]">
+                            <div class="flex">
+                                <a href="#">
+                                    <span class="text-[#52575C] text-[14px]">TVs</span>
+                                </a>
+                            </div>
+                            <div class="flex">
+                                <a href="#">
+                                    <span class="text-[#D9D9D9] font-bold">Widescreen 4K SUHD TV</span>
+                                </a>
+                            </div>
+                            <div class="flex">
+                                <img class="w-[183px]" src="img.cdm/widetv-300x300.png" alt="">
+                            </div>
+                            <div class="w-full flex justify-between items-center mt-[33px]">
+                                <div class="flex">
+                                    <span class="text-[#1C94DE] text-[20px]">$150.00</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <a class="bg-[#495057] rounded-full px-2 py-1" href="#"><i
+                                            class="fa-sharp fa-solid fa-cart-arrow-down text-[#D7D7D7]"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full flex">
+                        <div class="lg:w-[233px] px-5 py-5 flex flex-col border-l lg:border-r border-[#212121]">
+                            <div class="flex">
+                                <a href="#">
+                                    <span class="text-[#52575C] text-[14px]">Tablets</span>
+                                </a>
+                            </div>
+                            <div class="w-[201px] flex">
+                                <a href="#">
+                                    <span class="text-[#D9D9D9] font-bold">White Tablet S2 WiFi 62GB LTE Internet</span>
+                                </a>
+                            </div>
+                            <div class="flex">
+                                <img class="w-[183px]" src="img.cdm/appipad-300x300 (1).png" alt="">
+                            </div>
+                            <div class="w-full flex justify-between items-center">
+                                <div class="flex">
+                                    <span class="text-[#1C94DE] text-[20px]">$428.00</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <a class="bg-[#495057] rounded-full px-2 py-1" href="#"><i
+                                            class="fa-sharp fa-solid fa-cart-arrow-down text-[#D7D7D7]"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="md:hidden lg:w-[233px] lg:flex 2xl:flex px-5 py-5 flex flex-col border-[#212121]">
+                            <div class="flex">
+                                <a href="#">
+                                    <span class="text-[#52575C] text-[14px]">Cameras</span>
+                                </a>
+                            </div>
+                            <div class="w-[201px] flex">
+                                <a href="#">
+                                    <span class="text-[#D9D9D9] font-bold">Camera C430W 4k with Waterproof cover</span>
+                                </a>
+                            </div>
+                            <div class="flex">
+                                <img class="w-[183px]" src="img.cdm/cam4k-300x300.png" alt="">
+                            </div>
+                            <div class="w-full flex justify-between items-center">
+                                <div class="flex">
+                                    <span class="text-[#1C94DE] text-[20px]">$782.00</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <a class="bg-[#495057] rounded-full px-2 py-1" href="#"><i
+                                            class="fa-sharp fa-solid fa-cart-arrow-down text-[#D7D7D7]"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="w-full bg-[#181818]">
+        <div class="w-full flex-wrap px-10">
+            <div class="w-full flex justify-between pt-5">
+                <div class="md:w-[30%] lg:w-1/5 flex items-center">
+                    <span class="text-[#BDBDBD] text-[22px]">Best Sellers</span>
+                </div>
+                <div class="md:w-[70%] md:justify-end lg:w-[42%] flex items-center flex-wrap">
+                    <a class="bg-[#FED700] rounded-full px-5 mr-5" href="#">Top 20</a>
+                    <a class="mr-5 text-[#646B71]" href="#">Smart Phones & Tablets</a>
+                    <a class="mr-5 text-[#646B71]" href="#">Laptops & Computers</a>
+                    <a class="mr-5 text-[#646B71]" href="#">Video Cameras</a>
+                </div>
+            </div>
+            <div class="w-full h-[1px] bg-[#2F3336] relative after:w-[110px] after:h-[2px] after:bg-yellow-500 after:absolute after:left-0 "></div>
+            <div class="w-full flex flex-col">
+                <div class="w-full flex mt-8 flex-wrap">
+                    <div class="w-[348px] border-r border-[#2F3336] hover:bg-[#212121]">
+                        <div class="flex">
+                            <div class="w-2/4 flex items-center justify-center">
+                                <img class="w-[117px]" src="img.cdm/consal-300x300 (2).png" alt="">
+                            </div>
+                            <div class="w-2/4 flex flex-col">
+                                <div class="flex">
+                                    <a class="text-[#646B71] text-[13px]" href="#">Game Consoles</a>
+                                </div>
+                                <div class="flex">
+                                    <a class="font-medium text-[#D9D9D9]" href="#">Game Console Controller + USB 3.0</a>
+                                </div>
+                                <div class="w-[90%] flex justify-between">
+                                    <div class="flex items-center">
+                                        <span class="text-[#1DA1F2] text-[20px]">$99.00</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <a class="rounded-full bg-[#495057] px-2 py-1" href="#"><i
+                                                class="fa-sharp fa-solid fa-cart-arrow-down text-[13px] text-[#D9D9D9]"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[348px] border-r border-[#2F3336] hover:bg-[#212121]">
+                        <div class="flex">
+                            <div class="w-2/4 flex items-center justify-center">
+                                <img class="w-[117px]" src="img.cdm/WirelessSound-300x300 (1).png" alt="">
+                            </div>
+                            <div class="w-2/4 flex flex-col">
+                                <div class="flex">
+                                    <a class="text-[#646B71] text-[13px]" href="#">Audio Speakers</a>
+                                </div>
+                                <div class="flex">
+                                    <a class="font-medium text-[#D9D9D9]" href="#">Wireless Audio System Multiroom 360</a>
+                                </div>
+                                <div class="w-[90%] flex justify-between">
+                                    <div class="flex items-center">
+                                        <span class="text-[#1DA1F2] text-[20px]">$2,299.00</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <a class="rounded-full bg-[#495057] px-2 py-1" href="#"><i class="fa-sharp fa-solid fa-right-long text-[13px] text-[#D9D9D9]"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[348px] border-r border-[#2F3336] hover:bg-[#212121]">
+                        <div class="flex">
+                            <div class="w-2/4 flex items-center justify-center">
+                                <img class="w-[117px]" src="img.cdm/apptablet-300x300 (2).png" alt="">
+                            </div>
+                            <div class="w-2/4 flex flex-col">
+                                <div class="flex">
+                                    <a class="text-[#646B71] text-[13px]" href="#">Laptops, Ultrabooks</a>
+                                </div>
+                                <div class="flex">
+                                    <a class="font-medium text-[#D9D9D9]" href="#">Tablet Red EliteBook Revolve 810 G2</a>
+                                </div>
+                                <div class="w-[90%] flex justify-between">
+                                    <div class="flex flex-col">
+                                        <p class="text-[#E0245E] text-[20px]">$2,100.00</p>
+                                        <span class="text-[#627382] text-[12px]">$2,299.00</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <a class="rounded-full bg-[#495057] px-2 py-1" href="#"><i class="fa-sharp fa-solid fa-right-long text-[13px] text-[#D9D9D9]"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[348px] hover:bg-[#212121]">
+                        <div class="flex">
+                            <div class="w-2/4 flex items-center justify-center">
+                                <img class="w-[117px]" src="img.cdm/1-300x300.png" alt="">
+                            </div>
+                            <div class="w-2/4 flex flex-col">
+                                <div class="flex">
+                                    <a class="text-[#646B71] text-[13px]" href="#">Headphones</a>
+                                </div>
+                                <div class="flex">
+                                    <a class="font-medium text-[#D9D9D9]" href="#">Ultra Wireless S50 Headphones S50 with</a>
+                                </div>
+                                <div class="w-[90%] flex justify-between">
+                                    <div class="flex items-center">
+                                        <span class="text-[#1DA1F2] text-[20px]">$350.00</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <a class="rounded-full bg-[#495057] px-2 py-1" href="#"><i
+                                                class="fa-sharp fa-solid fa-cart-arrow-down text-[13px] text-[#D9D9D9]"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full flex mt-8 flex-wrap">
+                    <div class="w-[348px] border-r border-[#2F3336] hover:bg-[#212121]">
+                        <div class="flex">
+                            <div class="w-2/4 flex items-center justify-center">
+                                <img class="w-[116px]" src="img.cdm/heade1-300x300.png" alt="">
+                            </div>
+                            <div class="w-2/4 flex flex-col">
+                                <div class="flex">
+                                    <a class="text-[#646B71] text-[13px]" href="#">Headphones</a>
+                                </div>
+                                <div class="flex">
+                                    <a class="font-medium text-[#D9D9D9]" href="#">Purple Solo 2 Wireless</a>
+                                </div>
+                                <div class="w-[90%] text-center items-center mt-5 flex justify-between">
+                                    <div class="flex items-center">
+                                        <span class="text-[#1DA1F2] text-[20px]">$248.00</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <a class="rounded-full bg-[#495057] px-2 py-1" href="#"><i
+                                                class="fa-sharp fa-solid fa-cart-arrow-down text-[13px] text-[#D9D9D9]"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[348px] border-r border-[#2F3336] hover:bg-[#212121]">
+                        <div class="flex">
+                            <div class="w-2/4 flex items-center justify-center">
+                                <img class="w-[116px]" src="img.cdm/heade1-300x300.png" alt="">
+                            </div>
+                            <div class="w-2/4 flex flex-col">
+                                <div class="flex">
+                                    <a class="text-[#646B71] text-[13px]" href="#">Headphones</a>
+                                </div>
+                                <div class="flex">
+                                    <a class="font-medium text-[#D9D9D9]" href="#">White Solo 2 Wireless</a>
+                                </div>
+                                <div class="w-[90%] text-center items-center mt-5 flex justify-between">
+                                    <div class="flex items-center">
+                                        <span class="text-[#1DA1F2] text-[20px]">$248.99</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <a class="rounded-full bg-[#495057] px-2 py-1" href="#"><i class="fa-sharp fa-solid fa-right-long text-[13px] text-[#D9D9D9]"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[348px] border-r border-[#2F3336] hover:bg-[#212121]">
+                        <div class="flex">
+                            <div class="w-2/4 flex items-center justify-center">
+                                <img class="w-[117px]" src="img.cdm/redPhone-300x300.png" alt="">
+                            </div>
+                            <div class="w-2/4 flex flex-col">
+                                <div class="flex">
+                                    <a class="text-[#646B71] text-[13px]" href="#">Smartphone</a>
+                                </div>
+                                <div class="flex">
+                                    <a class="font-medium text-[#D9D9D9]" href="#">Tablet Thin EliteBook Revolve 810 G6</a>
+                                </div>
+                                <div class="w-[90%] text-center items-center flex justify-between">
+                                    <div class="flex items-center">
+                                        <span class="text-[#1DA1F2] text-[20px]">$1.300.00</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <a class="rounded-full bg-[#495057] px-2 py-1" href="#"><i class="fa-sharp fa-solid fa-right-long text-[13px] text-[#D9D9D9]"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[348px] hover:bg-[#212121]">
+                        <div class="flex">
+                            <div class="w-2/4 flex items-center justify-center">
+                                <img class="w-[117px]" src="img.cdm/Ultrabooks-300x300.png" alt="">
+                            </div>
+                            <div class="w-2/4 flex flex-col">
+                                <div class="flex">
+                                    <a class="text-[#646B71] text-[13px]" href="#">Laptops</a>
+                                </div>
+                                <div class="flex">
+                                    <a class="font-medium text-[#D9D9D9]" href="#">Tablet White EliteBook Revolve 810 G2</a>
+                                </div>
+                                <div class="w-[90%] text-center items-center flex justify-between">
+                                    <div class="flex items-center">
+                                        <span class="text-[#1DA1F2] text-[20px]">$1.300.00</span>
+                                    </div>
+                                    <div class="flex items-center">
+                                        <a class="rounded-full bg-[#495057] px-2 py-1" href="#"><i class="fa-sharp fa-solid fa-right-long text-[13px] text-[#D9D9D9]"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full flex justify-center items-center">
+                <div class="flex cursor-pointer">
+                    <span class="text-[#FCD500] text-[80px]">.</span>
+                </div>
+                <div class="flex cursor-pointer">
+                    <span class="text-[#BCBCBC] text-[80px]">.</span>
+                </div>
+                <div class="flex cursor-pointer">
+                    <span class="text-[#BCBCBC] text-[80px]">.</span>
+                </div>
+            </div>
+            <div class="w-full">
+                <div class="w-full">
+                    <a href="#">
+                        <img class="w-[1400px]" src="img.cdm/home-v5-banner.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="w-full bg-[#181818]">
+        <div class="w-full px-10 flex-wrap">
+            <div class="w-full flex justify-between">
+                <div class="w-[95%] flex items-center">
+                    <div class="flex">
+                        <h2 class="text-[1.571em] text-[#D4D4D4] font-normal">Recently Added</h2>
+                    </div>
+                </div>
+                <div class="w-[5%] flex items-center">
+                    <div class="flex">
+                        <i class="fa-solid fa-chevron-left text-[#B2BEC8] mr-2"></i>
+                        <i class="fa-solid fa-chevron-right text-[#B2BEC8]"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full h-[1px] bg-[#2F3336] relative after:w-[175px] after:h-[2px] after:bg-yellow-500 after:absolute after:left-0 "></div>
+            <div class="lg:w-full lg:overflow-hidden flex justify-center lg:justify-between mt-7 flex-wrap">
+                <div class="w-[193px] px-5 flex flex-col lg:border-r lg:border-[#2F3336] hover:bg-[#212121]">
+                    <div class="flex">
+                        <a class="text-[#6E767D] text-[14px]" href="#">Headphone Cases</a>
+                    </div>
+                    <div class="w-[88%] flex">
+                        <a class="text-[#CDCDCD] text-[14px] font-bold" href="#">Universal Headphones Case in</a>
+                    </div>
+                    <div class="flex">
+                        <a href="#">
+                            <img class="w-[145px]" src="img.cdm/headphonecase-300x300.png" alt="">
+                        </a>
+                    </div>
+                    <div class="w-[90%] flex justify-between">
+                        <div class="flex">
+                            <span class="text-[#1C94DE] text-[1.300em] font-normal">$159.00</span>
+                        </div>
+                        <div class="flex items-center">
+                            <a class="rounded-full bg-[#495057] px-2 py-1" href="#"><i class="fa-sharp fa-solid fa-cart-arrow-down text-[#D2D3D3]"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sm:flex sm:flex-col sm:justify-between lg:w-[193px] flex flex-col lg:border-r lg:border-[#2F3336] px-5 hover:bg-[#212121]">
+                    <div class="flex">
+                        <a class="text-[#6E767D] text-[14px]" href="#">Headphone Accessories</a>
+                    </div>
+                    <div class="w-[80%] flex">
+                        <a class="text-[#CDCDCD] text-[14px] font-bold" href="#">Headphones USB Wires</a>
+                    </div>
+                    <div class="flex">
+                        <a href="#">
+                            <img class="w-[145px]" src="img.cdm/usbheadphone-300x300.png" alt="">
+                        </a>
+                    </div>
+                    <div class="w-[90%] flex justify-between">
+                        <div class="flex">
+                            <span class="text-[#1C94DE] text-[1.300em] font-normal">$50.00</span>
+                        </div>
+                        <div class="flex items-center">
+                            <a class="rounded-full bg-[#495057] px-2 py-1" href="#"><i class="fa-sharp fa-solid fa-cart-arrow-down text-[#D2D3D3]"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[193px] flex flex-col lg:border-r lg:border-[#2F3336] px-5 hover:bg-[#212121]">
+                    <div class="flex">
+                        <a class="text-[#6E767D] text-[14px]" href="#">Headphones</a>
+                    </div>
+                    <div class="w-[80%] flex">
+                        <a class="text-[#CDCDCD] text-[14px] font-bold" href="#">Ultra Wireless S50 Headphones S50</a>
+                    </div>
+                    <div class="flex">
+                        <a href="#">
+                            <img class="w-[145px]" src="img.cdm/1-300x300 (1).png" alt="">
+                        </a>
+                    </div>
+                    <div class="w-[90%] flex justify-between">
+                        <div class="flex">
+                            <span class="text-[#1C94DE] text-[1.300em] font-normal">$350.00</span>
+                        </div>
+                        <div class="flex items-center">
+                            <a class="rounded-full bg-[#495057] px-2 py-1" href="#"><i class="fa-sharp fa-solid fa-cart-arrow-down text-[#D2D3D3]"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sm:flex sm:flex-col sm:justify-between lg:w-[193px] flex flex-col lg:border-r lg:border-[#2F3336] px-5 hover:bg-[#212121]">
+                    <div class="flex">
+                        <a class="text-[#6E767D] text-[14px]" href="#">Audio Speakers</a>
+                    </div>
+                    <div class="w-[80%] flex">
+                        <a class="text-[#CDCDCD] text-[14px] font-bold" href="#">Wireless Audio System Multiroom</a>
+                    </div>
+                    <div class="flex">
+                        <a href="#">
+                            <img class="w-[145px]" src="img.cdm/WirelessSound-300x300 (2).png" alt="">
+                        </a>
+                    </div>
+                    <div class="w-[90%] flex justify-between">
+                        <div class="flex">
+                            <span class="text-[#1C94DE] text-[1.300em] font-normal">$2,299.00</span>
+                        </div>
+                        <div class="flex items-center">
+                            <a class="rounded-full bg-[#495057] px-2 py-1" href="#"><i class="fa-sharp fa-solid fa-right-long text-[#D2D3D3]"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sm:flex sm:flex-col sm:justify-between  lg:w-[193px] flex flex-col lg:border-r lg:border-[#2F3336] px-5 hover:bg-[#212121]">
+                    <div class="flex">
+                        <a class="text-[#6E767D] text-[14px]" href="#">Laptops</a>
+                    </div>
+                    <div class="w-[80%] flex">
+                        <a class="text-[#CDCDCD] text-[14px] font-bold" href="#">Tablet White EliteBook Revolve</a>
+                    </div>
+                    <div class="flex">
+                        <a href="#">
+                            <img class="w-[145px]" src="img.cdm/Ultrabooks-300x300 (1).png" alt="">
+                        </a>
+                    </div>
+                    <div class="w-[90%] flex justify-between">
+                        <div class="flex">
+                            <span class="text-[#1C94DE] text-[1.300em] font-normal">$1,300.00</span>
+                        </div>
+                        <div class="flex items-center">
+                            <a class="rounded-full bg-[#495057] px-2 py-1" href="#"><i class="fa-sharp fa-solid fa-right-long text-[#D2D3D3]"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sm:flex-col sm:justify-between sm:hidden lg:w-[193px] lg:flex flex-col lg:border-r lg:border-[#2F3336] px-5 hover:bg-[#212121]">
+                    <div class="flex">
+                        <a class="text-[#6E767D] text-[14px]" href="#">Headphones</a>
+                    </div>
+                    <div class="w-[80%] flex">
+                        <a class="text-[#CDCDCD] text-[14px] font-bold" href="#">Purple Solo 2 Wireless</a>
+                    </div>
+                    <div class="flex">
+                        <a href="#">
+                            <img class="w-[145px]" src="img.cdm/heade1-300x300 (1).png" alt="">
+                        </a>
+                    </div>
+                    <div class="w-[90%] flex justify-between">
+                        <div class="flex">
+                            <span class="text-[#1C94DE] text-[1.300em] font-normal">$248.00</span>
+                        </div>
+                        <div class="flex items-center">
+                            <a class="rounded-full bg-[#495057] px-2 py-1" href="#"><i class="fa-sharp fa-solid fa-cart-arrow-down text-[#D2D3D3]"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sm:flex-col sm:justify-between sm:hidden lg:w-[193px] lg:flex flex-col px-5 hover:bg-[#212121]">
+                    <div class="flex">
+                        <a class="text-[#6E767D] text-[14px]" href="#">Laptops</a>
+                    </div>
+                    <div class="w-[90%] flex">
+                        <a class="text-[#CDCDCD] text-[14px] font-bold" href="#">Notebook Widescreen Y700-17</a>
+                    </div>
+                    <div class="flex">
+                        <a href="#">
+                            <img class="w-[145px]" src="img.cdm/asuaslap-300x300.png" alt="">
+                        </a>
+                    </div>
+                    <div class="w-[90%] flex justify-between">
+                        <div class="flex">
+                            <span class="text-[#1C94DE] text-[1.300em] font-normal">$1,299.00</span>
+                        </div>
+                        <div class="flex items-center">
+                            <a class="rounded-full bg-[#495057] px-2 py-1" href="#"><i class="fa-sharp fa-solid fa-cart-arrow-down text-[#D2D3D3]"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full flex justify-center">
+                <div class="w-full justify-center flex">
+                    <div class="flex cursor-pointer">
+                        <span class="text-[#FCD500] text-[80px]">.</span>
+                    </div>
+                    <div class="flex cursor-pointer">
+                        <span class="text-[#BCBCBC] text-[80px]">.</span>
+                    </div>
+                    <div class="flex cursor-pointer">
+                        <span class="text-[#BCBCBC] text-[80px]">.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full border-t border-b border-[#2F3336]">
+                <div class="w-full flex justify-between py-4">
+                    <div class="flex">
+                        <a href="#">
+                            <img class="w-[166px] opacity-40 hover:opacity-100 duration-100" src="img.cdm/themeforest1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="flex">
+                        <a href="#">
+                            <img class="w-[166px] opacity-40 hover:opacity-100 duration-100" src="img.cdm/themeforest2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="flex">
+                        <a href="#">
+                            <img class="w-[166px] opacity-40 hover:opacity-100 duration-100" src="img.cdm/themeforest3.png" alt="">
+                        </a>
+                    </div>
+                    <div class="flex">
+                        <a href="#">
+                            <img class="w-[166px] opacity-40 hover:opacity-100 duration-100" src="img.cdm/themeforest4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="flex">
+                        <a href="#">                            
+                            <img class="w-[166px] opacity-40 hover:opacity-100 duration-100" src="img.cdm/themeforest5.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="w-full bg-[#181818] py-10">
+        <div class="w-full px-10">
+            <div class="md:w-full lg:w-full flex lg:justify-between flex-wrap">
+                <div class="w-[345px] flex flex-col">
+                    <div class="flex">
+                        <h4 class="text-[#d9d9d9] text-[1.429em]">Featured Products</h4>
+                    </div>
+                    <div class="w-full h-[1px] bg-[#2F3336] relative after:w-[91px] after:h-[2px] after:bg-yellow-500 after:absolute after:left-0 "></div>
+                    <div class="w-[352px] py-4 flex">
+                        <div class="w-[28%] items-center flex">
+                            <a href="#">
+                                <img class="w-[75px]" src="img.cdm/redPhone-300x300 (1).png" alt="">
+                            </a>
+                        </div>
+                        <div class="w-[73%] flex flex-col">
+                            <div class="flex">
+                                <a href="#">
+                                    <span class="text-[#d9d9d9] text-[1em] font-bold leading-[1.2em]">Tablet Thin EliteBook Revolve 810 G6</span>
+                                </a>
+                            </div>
+                            <div class="flex items-center mt-1">
+                                <i class="fa-solid fa-star text-[#FED700] text-[13px]"></i>
+                                <i class="fa-solid fa-star text-[#FED700] text-[13px]"></i>
+                                <i class="fa-solid fa-star text-[#FED700] text-[13px]"></i>
+                                <i class="fa-solid fa-star text-[#FED700] text-[13px]"></i>
+                                <i class="fa-solid fa-star text-[#FED700] text-[13px]"></i>
+                            </div>
+                            <div class="flex mt-1">
+                                <span class="text-[#1DA1F2] text-[1.071em]">$1,300.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[352px] py-4 flex">
+                        <div class="w-[28%] items-center flex">
+                            <a href="#">
+                                <img class="w-[75px]" src="img.cdm/sam2-300x300.png" alt="">
+                            </a>
+                        </div>
+                        <div class="w-[73%] flex flex-col">
+                            <div class="flex">
+                                <a href="#">
+                                    <span class="text-[#d9d9d9] text-[1em] font-bold leading-[1.2em]">Smartphone 6S 128GB LTE</span>
+                                </a>
+                            </div>
+                            <div class="flex items-center mt-1">
+                                <i class="fa-solid fa-star text-[#FED700] text-[13px]"></i>
+                                <i class="fa-solid fa-star text-[#FED700] text-[13px]"></i>
+                                <i class="fa-solid fa-star text-[#FED700] text-[13px]"></i>
+                                <i class="fa-solid fa-star text-[#FED700] text-[13px]"></i>
+                                <i class="fa-solid fa-star text-[#FED700] text-[13px]"></i>
+                            </div>
+                            <div class="flex mt-1">
+                                <span class="text-[#1DA1F2] text-[1.071em]">$1,100.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[352px] py-4 flex">
+                        <div class="w-[28%] items-center flex">
+                            <a href="#">
+                                <img class="w-[75px]" src="img.cdm/lgphone-300x300.png" alt="">
+                            </a>
+                        </div>
+                        <div class="w-[73%] flex flex-col">
+                            <div class="flex">
+                                <a href="#">
+                                    <span class="text-[#d9d9d9] text-[1em] font-bold leading-[1.2em]">Smartphone 6S 128GB LTE</span>
+                                </a>
+                            </div>
+                            <div class="flex items-center mt-4">
+                                <span class="text-[#D8245B] mr-1 text-[17px]">$750.00</span>
+                                <span class="text-[#8F8F8F] text-[12px]">$780.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[345px] flex flex-col">
+                    <div class="flex">
+                        <h4 class="text-[#d9d9d9] text-[1.429em]">Top Selling Products</h4>
+                    </div>
+                    <div class="w-full h-[1px] bg-[#2F3336] relative after:w-[110px] after:h-[2px] after:bg-yellow-500 after:absolute after:left-0"></div>
+                    <div class="w-[352px] py-4 flex">
+                        <div class="w-[28%] items-center flex">
+                            <a href="#">
+                                <img class="w-[75px]" src="img.cdm/consal-150x150.png" alt="">
+                            </a>
+                        </div>
+                        <div class="w-[73%] flex flex-col">
+                            <div class="flex">
+                                <a href="#">
+                                    <span class="text-[#d9d9d9] text-[1em] font-bold leading-[1.2em]">Game Console Controller + USB 3.0 Cable</span>
+                                </a>
+                            </div>
+                            <div class="flex mt-1">
+                                <span class="text-[#1DA1F2] text-[1.071em]">$99.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[352px] py-4 flex">
+                        <div class="w-[28%] items-center flex">
+                            <a href="#">
+                                <img class="w-[75px]" src="img.cdm/WirelessSound-300x300 (3).png" alt="">
+                            </a>
+                        </div>
+                        <div class="w-[256px] flex flex-col">
+                            <div class="w-[68%] flex">
+                                <a href="#">
+                                    <span class="text-[#d9d9d9] text-[1em] font-bold leading-[1.2em]">Wireless Audio System Multiroom 360</span>
+                                </a>
+                            </div>
+                            <div class="flex mt-1">
+                                <span class="text-[#1DA1F2] text-[1.071em]">$2,299.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[352px] py-4 flex">
+                        <div class="w-[28%] items-center flex">
+                            <a href="#">
+                                <img class="w-[75px]" src="img.cdm/apptablet-300x300 (3).png" alt="">
+                            </a>
+                        </div>
+                        <div class="w-[73%] flex flex-col">
+                            <div class="flex">
+                                <a href="#">
+                                    <span class="text-[#d9d9d9] text-[1em] font-bold leading-[1.2em]">Tablet Red EliteBook Revolve 810 G2</span>
+                                </a>
+                            </div>
+                            <div class="flex items-center mt-1">
+                                <i class="fa-solid fa-star text-[#FED700] text-[13px]"></i>
+                                <i class="fa-solid fa-star text-[#FED700] text-[13px]"></i>
+                                <i class="fa-solid fa-star text-[#FED700] text-[13px]"></i>
+                                <i class="fa-solid fa-star text-[#FED700] text-[13px]"></i>
+                                <i class="fa-solid fa-star text-[#FED700] text-[13px]"></i>
+                            </div>
+                            <div class="flex items-center mt-1">
+                                <span class="text-[#D8245B] mr-1 text-[17px]">$2,100.00</span>
+                                <span class="text-[#8F8F8F] text-[12px]">$2,299.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[345px] flex flex-col">
+                    <div class="flex">
+                        <h4 class="text-[#d9d9d9] text-[1.429em]">On-sale Products</h4>
+                    </div>
+                    <div class="w-full h-[1px] bg-[#2F3336] relative after:w-[90px] after:h-[2px] after:bg-yellow-500 after:absolute after:left-0 "></div>
+                    <div class="w-[352px] py-4 flex">
+                        <div class="w-[28%] items-center flex">
+                            <a href="#">
+                                <img class="w-[75px]" src="img.cdm/powerbank-300x300 (1).png" alt="">
+                            </a>
+                        </div>
+                        <div class="w-[73%] flex flex-col">
+                            <div class="flex">
+                                <a href="#">
+                                    <span class="text-[#d9d9d9] text-[1em] font-bold leading-[1.2em]">Powerbank 1130 mAh Blue</span>
+                                </a>
+                            </div>
+                            <div class="flex mt-2 items-center">
+                                <span class="text-[#B6214F] text-[1.071em]">$200.00</span>
+                                <span class="text-[#8F8F8F] text-[12px]">$210.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[352px] py-4 flex">
+                        <div class="w-[28%] items-center flex">
+                            <a href="#">
+                                <img class="w-[75px]" src="img.cdm/GoldPhone-300x300.png" alt="">
+                            </a>
+                        </div>
+                        <div class="w-[256px] flex flex-col">
+                            <div class="w-[266px] flex">
+                                <a href="#">
+                                    <span class="text-[#d9d9d9] text-[1em] font-bold leading-[1.2em]">Notebook Black Spire V Nitro VN7-591G</span>
+                                </a>
+                            </div>
+                            <div class="flex mt-2 items-center">
+                                <span class="text-[#B6214F] text-[1.071em]">$1,999.00</span>
+                                <span class="text-[#8F8F8F] text-[12px]">$2,299.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-[352px] py-4 flex">
+                        <div class="w-[28%] items-center flex">
+                            <a href="#">
+                                <img class="w-[75px]" src="img.cdm/apptablet-300x300 (3).png" alt="">
+                            </a>
+                        </div>
+                        <div class="w-[73%] flex flex-col">
+                            <div class="flex">
+                                <a href="#">
+                                    <span class="text-[#d9d9d9] text-[1em] font-bold leading-[1.2em]">Tablet Red EliteBook Revolve 810 G2</span>
+                                </a>
+                            </div>
+                            <div class="flex items-center mt-1">
+                                <i class="fa-solid fa-star text-[#FED700] text-[13px]"></i>
+                                <i class="fa-solid fa-star text-[#FED700] text-[13px]"></i>
+                                <i class="fa-solid fa-star text-[#FED700] text-[13px]"></i>
+                                <i class="fa-solid fa-star text-[#FED700] text-[13px]"></i>
+                                <i class="fa-solid fa-star text-[#FED700] text-[13px]"></i>
+                            </div>
+                            <div class="flex items-center mt-1">
+                                <span class="text-[#D8245B] mr-1 text-[17px]">$2,100.00</span>
+                                <span class="text-[#8F8F8F] text-[12px]">$2,299.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-[356px] md:justify-start lg:w-[356px] flex lg:justify-end">
+                    <div class="flex">
+                        <img class="w-[327px]" src="img.cdm/footer-widget-img-01 (2).jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="w-full bg-[#FED700]">
+        <div class="md:w-full lg:w-full px-10 py-4">
+            <div class="md:w-full lg:w-full flex">
+                <div class="md:w-2/4 lg:w-2/4 flex items-center">
+                    <div class="flex items-center mr-3">
+                        <i class="fa-regular fa-paper-plane text-[1.619em] font-thin"></i>
+                    </div>
+                    <div class="md:w-[88%] lg:w-[40%] wflex mr-5">
+                        <span class="text-[20px] font-normal text-[#181813]">Sign up to Newsletter</span>
+                    </div>
+                    <div class="md:w-[71%] lg:flex">
+                        <span>...and receive <span class="font-bold text-[#181818]">$20 coupon for first shopping</span></span>
+                    </div>
+                </div>
+                <div class="md:w-2/4 lg:w-2/4 flex justify-end">
+                    <div class="w-[80%] h-10 items-center flex bg-[#212121] rounded-full">
+                        <div class="w-[80%]">
+                            <input class="w-full bg-[#212121] rounded-full pl-6 border-0 outline-0" type="email" placeholder="Enter your email address">
+                        </div>
+                        <div class="w-[20%] h-10 bg-[#181818] flex rounded-r-[100%] items-center justify-center cursor-pointer">
+                            <p class="text-[#F8F8E9]">SignUp</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="w-full bg-[#181818]">
+        <div class="w-full px-10 py-12 fl">
+            <div class="w-full flex flex-wrap">
+                <div class="w-[595px] flex flex-col">
+                    <div class="flex">
+                        <h2 class="font-bold text-[40px] text-[#D9D9D9]">electro<span class="text-[#FED700]">.</span></h2>
+                    </div>
+                    <div class="flex mb-9">
+                        <div class="flex items-center justify-center mr-5">
+                            <i class="fa-solid fa-headset text-[50px] text-[#FED700]"></i>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="text-[#D3D0D3]">Got Questions ? Call us 24/7!</span>
+                            <span class="text-[#D9D9D9] text-[1.400em]">(800) 8001-8588, (0600) 874 548</span>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <span class="text-[#D9D9D9] text-[14px] font-bold">Contact Info</span>
+                    </div>
+                    <div class="flex">
+                        <span class="text-[14px] text-[#d9d9d9]">17 Princess Road, London, Greater London NW1 8JR, UK</span>
+                    </div>
+                    <div class="flex mt-5">
+                        <a class="mr-4" href="#">
+                            <i class="fa-brands fa-facebook text-[#6E767D] text-[20px] hover:text-[#3B5998]"></i>
+                        </a>
+                        <a class="mr-4" href="#">
+                            <i class="fa-brands fa-whatsapp text-[#6E767D] text-[20px] hover:text-[#4FCE5D]"></i>
+                        </a>
+                        <a class="mr-4" href="#">
+                            <i class="fa-brands fa-pinterest text-[#6E767D] text-[20px] hover:text-[#BD081C]"></i>
+                        </a>
+                        <a class="mr-4" href="#">
+                            <i class="fa-brands fa-linkedin text-[#6E767D] text-[20px] hover:text-[#0077B5]"></i>
+                        </a>
+                        <a class="mr-4" href="#">
+                            <i class="fa-brands fa-instagram text-[#6E767D] text-[20px] hover:text-[#F25A00]"></i>
+                        </a>
+                        <a class="mr-4" href="#">
+                            <i class="fa-brands fa-youtube text-[#6E767D] text-[20px] hover:text-[#FF0000]"></i>
+                        </a>
+                        <a class="mr-4" href="#">
+                            <i class="fa-solid fa-wifi text-[#6E767D] text-[20px] hover:text-[#FF6600]"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="w-[804px] flex flex-wrap">
+                    <div class="w-[268px]">
+                        <div class="flex flex-col">
+                            <h3 class="font-semibold text-[1.100em] text-[#D9D9D9] mb-[1.6em]">Find It Fast</h3>
+                            <ul>
+                                <li>
+                                    <a class="text-[#CDD9D9]" href="#">Laptops & Computers</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="text-[#CDD9D9]" href="#">Cameras & Photography</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="text-[#CDD9D9]" href="#">Smart Phones & Tablets</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="text-[#CDD9D9]" href="#">Video Games & Consoles</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="text-[#CDD9D9]" href="#">TV & Audio</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="text-[#CDD9D9]" href="#">Gadgets</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="text-[#CDD9D9]" href="#">Waterproof Headphones</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="w-[268px]">
+                        <ul class="flex flex-col mt-[55px]">
+                            <li>
+                                <a class="text-[#CDD9D9]" href="#">About</a>
+                            </li>
+                            <li class="mt-2">
+                                <a class="text-[#CDD9D9]" href="#">Contact</a>
+                            </li>
+                            <li class="mt-2">
+                                <a class="text-[#CDD9D9]" href="#">Wishlist</a>
+                            </li>
+                            <li class="mt-2">
+                                <a class="text-[#CDD9D9]" href="#">Compare</a>
+                            </li>
+                            <li class="mt-2">
+                                <a class="text-[#CDD9D9]" href="#">FAQ</a>
+                            </li>
+                            <li class="mt-2">
+                                <a class="text-[#CDD9D9]" href="#">Store Directory</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="w-[268px]">
+                        <div class="flex flex-col">
+                            <h3 class="font-semibold text-[1.100em] text-[#D9D9D9] mb-[1.6em]">Customer Care</h3>
+                            <ul>
+                                <li>
+                                    <a class="text-[#CDD9D9]" href="#">My Account</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="text-[#CDD9D9]" href="#">Track your Order</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="text-[#CDD9D9]" href="#">Customer Service</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="text-[#CDD9D9]" href="#">Returns/Exchange</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="text-[#CDD9D9]" href="#">FAQs</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="text-[#CDD9D9]" href="#">Product Support</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <section class="sm:hidden md:flex w-full bg-[#212121]">
+        <div class="w-full px-10 py-1">
+            <div class="w-full flex">
+                <div class="w-2/4 flex items-center">
+                    <div class="flex items-center">
+                        <span class="text-[#D9D9D3]">@ <a class="text-[#D9D9D9] font-medium" href="#">Electro </a>- All Rights Reserved</span>
+                    </div>
+                </div>
+                <div class="w-2/4 flex items-center justify-end">
+                    <div class="flex items-center">
+                        <img src="img.cdm/patment-icon1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sm:flex md:hidden w-full bg-[#333E48]">
+        <div class="w-full px-10 py-5">
+            <div class="w-full flex flex-col justify-center">
+                <div class="w-full flex justify-center">
+                    <span class="text-white font-bold text-[40px]">electro<span
+                        class="text-[#FDD700]">.</span></span>
+                </div>
+                <div class="w-full flex justify-center mt-2">
+                    <span class="text-[14px] text-white font-normal">Got Questions ? Call us 24/7!</span>
+                </div>
+                <div class="w-full flex flex-col justify-center">
+                    <div class="w-full justify-center flex">
+                        <p class="text-[20px] text-white">(800) 8001-8588,</p>
+                    </div>
+                    <div class="w-full justify-center flex">
+                        <p class="text-[20px] text-white">(0600) 874 548</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
